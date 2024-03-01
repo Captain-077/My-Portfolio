@@ -5,10 +5,10 @@ function PortfolioPage() {
 
     const projects = [
         {
-          title: 'Project Title 1',
+          title: 'Student management App',
           image:"https://media.istockphoto.com/id/1623303770/photo/creative-background-image-is-blurred-evening-city-lights-and-light-snowfall.webp?b=1&s=170667a&w=0&k=20&c=PhWd1zt98e6K70KAAb1BjzZXGdQZZRwfqvdtJOwTfIw=",
           description: 'A short description of your project.',
-          link: '#',
+          link: 'https://student-manage-system.vercel.app/',
         },
         {
           title: 'Project Title 2',

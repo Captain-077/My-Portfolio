@@ -16,7 +16,7 @@ function PortfolioPage() {
           github:"https://github.com/Captain-077/My-Crud-App"
         },
         {
-          title: 'Shopping Cart App (Pending)',
+          title: 'Shopping Cart App (Pending....)',
           image:"images/shopping_cart.png",
           description: "A simple Shopping cart App",
           link: 'https://nakul-ecommerce-app.vercel.app/',

@@ -20,6 +20,9 @@ const Navbar = () => {
         <li className="nav-item">
           <Link to="/contact" className="nav-link">Contact</Link>
         </li>
+        <li className="nav-item">
+        <a src="./resume/" download>Download PDF</a>
+        </li>
         <li className="nav-item social-links">
           <a href="https://github.com/Captain-077" target="_blank" rel="noopener noreferrer">
             <AiFillGithub />

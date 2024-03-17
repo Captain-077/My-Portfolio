@@ -1,19 +1,27 @@
-// src/components/PortfolioGrid.js
 import React from 'react';
+// import studentIMG from "./images/student_app.png"
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import {faArrowUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
 
 function PortfolioPage() {
 
-    const projects = [
+    const projects = [  
         {
           title: 'Student management App',
-          image:"https://media.istockphoto.com/id/1623303770/photo/creative-background-image-is-blurred-evening-city-lights-and-light-snowfall.webp?b=1&s=170667a&w=0&k=20&c=PhWd1zt98e6K70KAAb1BjzZXGdQZZRwfqvdtJOwTfIw=",
-          description: 'A short description of your project.',
+          image:"./images/student_app.png",
+          description: "Efficiently add, edit, and delete information via intuitive forms and a dynamic table. Simplify data management with ease.",
           link: 'https://student-manage-system.vercel.app/',
+          techstack: "HTML, CSS, JS, Rest APIs, React-Router, React",
+          github:"https://github.com/Captain-077/My-Crud-App"
         },
         {
-          title: 'Project Title 2',
-          description: 'Another short description of your project.',
-          link: '#',
+          title: 'Shopping Cart App (Pending)',
+          image:"images/shopping_cart.png",
+          description: "A simple Shopping cart App",
+          link: 'https://nakul-ecommerce-app.vercel.app/',
+          techstack: "HTML, CSS, JS, Rest APIs, React-Router, React, Redux",
+          github:"https://github.com/Captain-077/Shopping-Cart-App"
         },
       ];
     
@@ -21,10 +29,12 @@ function PortfolioPage() {
     <div className="portfolio-grid">
       {projects.map((project, index) => (
         <div key={index} className="portfolio-item">
-          <img src={project.image} alt={project.title} />
+          <a href={project.link} target="_blank"><img src={project.image} alt={project.title} /></a>
           <h3 className="project-title">{project.title}</h3>
+          <p className="project-techstack"> <span>Tech Stack:</span> {project.techstack}</p>
           <p className="project-description">{project.description}</p>
-          <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link">View Project</a>
+          <a href={project.link} target="_blank" rel="noopener noreferrer" className="project-link"><FontAwesomeIcon icon={faArrowUpRightFromSquare}  style={{color:'white', marginRight:'6px'}}/>Live link</a>
+          <a href={project.github} target="_blank" rel="noopener noreferrer" className="project-github"><FontAwesomeIcon icon={faGithub}  style={{color:'white', marginRight:'6px'}}/>Github</a>
         </div>
       ))}
     </div>

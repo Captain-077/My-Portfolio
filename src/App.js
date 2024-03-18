@@ -2,14 +2,14 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';
-import HomePage from './HomePage';
-import PortfolioPage from './PortfolioPage';
+import Header from './Components/Header/Header';
+import HomePage from './Components/Home/HomePage';
+import PortfolioPage from './Components/Portfolio/PortfolioPage';
 
 function App() {
   return (
     <Router>
-      <Navbar />
+      <Header />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/portfolio" element={<PortfolioPage />} />

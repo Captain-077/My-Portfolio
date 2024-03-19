@@ -216,18 +216,11 @@ img{
     padding: 1rem 1.75rem;
   }
 
-  .button__icon {
+  .button__icon { 
     width: 22px;
     height: 22px;
   }
 }
-
-
-
-
-
-
-
 
 
 
@@ -248,6 +241,8 @@ img{
 
 @media screen and (max-width: 576px) {
 }
+
+
 
 /* For small devices */
 @media screen and (max-width: 350px) {

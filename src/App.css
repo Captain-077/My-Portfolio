@@ -194,9 +194,25 @@ img{
 }
 
 .button--flex{
-  display: inline-block;
+  display: inline-flex;
   align-items: center;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -224,6 +240,10 @@ img{
 
 
 
+
+
+
+
 /* For medium devices */
 @media screen and (max-width: 768px) {
   body {
@@ -239,8 +259,19 @@ img{
   }
 }
 
+
+
 @media screen and (max-width: 576px) {
 }
+
+
+
+
+
+
+
+
+
 
 
 

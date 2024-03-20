@@ -14,9 +14,10 @@ function HomePage() {
 
         <div className="home__content grid">
           <Social />
-          <Data />
           <div className="home__img">
           </div>
+          <Data />
+        
 
         </div>
 

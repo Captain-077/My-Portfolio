@@ -6,24 +6,7 @@ import {faArrowUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
 
 function PortfolioPage() {
 
-    const projects = [  
-        {
-          title: 'Student management App',
-          image:"./images/student_app.png",
-          description: "Efficiently add, edit, and delete information via intuitive forms and a dynamic table. Simplify data management with ease.",
-          link: 'https://student-manage-system.vercel.app/',
-          techstack: "HTML, CSS, JS, Rest APIs, React-Router, React",
-          github:"https://github.com/Captain-077/My-Crud-App"
-        },
-        {
-          title: 'Shopping Cart App (Pending....)',
-          image:"images/shopping_cart.png",
-          description: "A simple Shopping cart App",
-          link: 'https://nakul-ecommerce-app.vercel.app/',
-          techstack: "HTML, CSS, JS, Rest APIs, React-Router, React, Redux",
-          github:"https://github.com/Captain-077/Shopping-Cart-App"
-        },
-      ];
+    
     
   return (
     <div className="portfolio-grid">

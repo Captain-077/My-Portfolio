@@ -1,5 +1,6 @@
 import React from 'react'
 import Scrolldown from './Scrolldown'
+import CV from '../../assests/resume/Google Doc ATS NEW.pdf'
 
 function Data() {
     return (
@@ -58,8 +59,8 @@ function Data() {
 
             <h3 className="home__subtitle">Frontend developer</h3>
             <p className="home__description">I am an Experienced Frontend developer currently working on React.js and other exciting front-end technlogies </p>
-            <a href="#" className="button button--flex">
-                Resume <i class="uil uil-file-download"></i>
+            <a href={CV} target='_blank' className="button button--flex">
+                Resume <i class="uil uil-file-download" style={{marginLeft:"5px",fontSize:"1rem"}}></i>
             </a>
 
            

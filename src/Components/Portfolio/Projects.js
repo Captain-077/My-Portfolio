@@ -21,10 +21,10 @@ function Projects() {
             })
             setProjects(newProjects);
         }
-    },[item])
+    }, [item])
 
-    const handleClick = (e,index) => {
-        setItem({name: e.target.textContent });
+    const handleClick = (e, index) => {
+        setItem({ name: e.target.textContent });
         setActive(index)
     }
 
@@ -35,9 +35,9 @@ function Projects() {
             <div className="work__filters">
                 {ProjectsNav.map((item, index) => {
                     return (
-                        <span onClick={(e) => {handleClick(e,index)}}
-                        className={`${active === index ? 'active-work' : ''} work__item`} key={index}>
-                        {item.name}
+                        <span onClick={(e) => { handleClick(e, index) }}
+                            className={`${active === index ? 'active-work' : ''} work__item`} key={index}>
+                            {item.name}
                         </span>
                     )
                 })}

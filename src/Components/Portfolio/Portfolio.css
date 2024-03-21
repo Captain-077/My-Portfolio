@@ -66,11 +66,13 @@
 }
 
 .work__button {
-    color: var(--container-color);
+    color: var(--title-color);
     font-size: var(--small-font-size);
-    background-color: #333333;
+border-radius: 0.25rem;   
     padding: 0.35rem 0.5rem;
-    border-radius: 0.25rem;
+    border-bottom: 1px solid #ffffff;
+    transition: all 0.5s;
+    
 }
 
 .work__button-icon {
@@ -78,8 +80,8 @@
     transition: 0.4s;
 }
 
-.work__button:hover .work__button-icon {
-    transform: translateX(0.25rem);
+.work__button:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 
 

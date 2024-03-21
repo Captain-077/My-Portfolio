@@ -1,6 +1,8 @@
-import StudentApp from "../../assests/student_app.png"
-import shoppingCart from "../../assests/shopping_cart.png"
+import StudentApp from "../../assests/thumnails/2.jpg"
+import shoppingCart from "../../assests/thumnails/4.jpg"
 import bgChanger from '../../assests/thumnails/1.jpg'
+import BMI from '../../assests/thumnails/3.jpg'
+
 
 
 export const ProjectsData = [
@@ -16,7 +18,7 @@ export const ProjectsData = [
     },
     {
         id: 2,
-        category: "Mini Js projects",
+        category: "React Projects",
         title: 'Shopping Cart App (Pending....)',
         image: shoppingCart,
         description: "A simple Shopping cart App",
@@ -33,6 +35,16 @@ export const ProjectsData = [
         link: 'https://background-color-changer-lac.vercel.app/',
         techstack: "#HTML, #CSS, #JS",
         github: "https://github.com/Captain-077/BackGround-Color-Changer"
+    },
+    {
+        id: 4,
+        category: "Mini Js projects",
+        title: 'BMI calculator',
+        image: BMI,
+        description: "A simple BMI calculator website.",
+        link: 'https://bmi-calculator-mu-ecru.vercel.app/',
+        techstack: "#HTML, #CSS, #JS",
+        github: "https://github.com/Captain-077/BMI-Calculator"
     }
 ];
 

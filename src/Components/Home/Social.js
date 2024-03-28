@@ -24,7 +24,7 @@ function Social() {
 
 
                 <a
-                    href="https://twitter.com/i/flow/login"
+                    href="https://twitter.com/nakul_707"
                     target="_blank"
                     rel="noopener noreferrer"
                     className='home__social-icon'

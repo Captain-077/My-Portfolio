@@ -1,6 +1,5 @@
 import React from 'react'
-import Scrolldown from './Scrolldown'
-import CV from '../../assests/resume/Google Doc ATS NEW.pdf'
+import CV from '../../assests/resume/Nakul_saini.pdf'
 
 function Data() {
     return (

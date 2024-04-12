@@ -3,6 +3,7 @@ import shoppingCart from "../../assests/thumnails/4.jpg"
 import bgChanger from '../../assests/thumnails/1.jpg'
 import BMI from '../../assests/thumnails/3.jpg'
 import MusicPlayer from '../../assests/thumnails/5.jpg'
+import WeatherApp from '../../assests/thumnails/6.jpg'
 
 
 
@@ -57,7 +58,18 @@ export const ProjectsData = [
         link: 'https://bmi-calculator-mu-ecru.vercel.app/',
         techstack: "#HTML, #CSS, #JS",
         github: "https://github.com/Captain-077/BMI-Calculator"
+    },
+    {
+        id: 6,
+        category: "React Projects",
+        title: 'Weather App',
+        image: WeatherApp,
+        description: "A simple weather app",
+        link: 'https://weather-app-delta-orpin-27.vercel.app/',
+        techstack: "#HTML, #CSS, #JS, #Rest-APIs, #React",
+        github: "https://github.com/Captain-077/weather-app"
     }
+  
   
 ];
 

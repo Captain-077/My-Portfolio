@@ -15,7 +15,8 @@ function About() {
                 <div className="about__data">
                     <Info />
                     <p className="about__description">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor at ab voluptatem corporis sunt adipisci repudiandae laborum aut magni ipsum.
+
+                        Passionate Frontend Developer/Designer embracing React and cutting-edge technologies. Crafting engaging web experiences with creativity and technical expertise. Let's connect and elevate your projects! 🚀💻
                     </p>
                     <a href="#" className='button button--flex'>Contact me</a>
 

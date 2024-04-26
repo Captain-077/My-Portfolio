@@ -42,7 +42,7 @@ export const ProjectsData = [
     {
         id: 4,
         category: "Mini Js projects",
-        title: 'BAckgorund Color Changer',
+        title: 'Backgorund Color Changer',
         image: bgChanger,
         description: "A simple Background color changer site.",
         link: 'https://background-color-changer-lac.vercel.app/',
@@ -65,9 +65,9 @@ export const ProjectsData = [
         title: 'Weather App',
         image: WeatherApp,
         description: "A simple weather app",
-        link: 'https://weather-app-delta-orpin-27.vercel.app/',
+        link: 'https://my-weather-app-pi-one.vercel.app/',
         techstack: "#HTML, #CSS, #JS, #Rest-APIs, #React",
-        github: "https://github.com/Captain-077/weather-app"
+        github: "https://github.com/Captain-077/digital-paani-weather"
     }
   
   
